@@ -1478,7 +1478,7 @@ $.ajax({
 			function (response) {
 				//console.log('SUCCESS UPLOAD ', response);
 				//console.log(response.link + '&makeprofile=1');
-			  fbImgLink = 'https://www.facebook.com/photo.php?fbid='+data.id + '&makeprofile=1'+'&target="_top"';
+			  fbImgLink = 'https://www.facebook.com/photo.php?fbid='+data.id + '&makeprofile=1'+'&target=_top';
 				fbStream(
 						{},
 						function (res) {
