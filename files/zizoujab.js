@@ -1189,7 +1189,7 @@ function fbPhotos (callback) {
 	// 		function (res) {
 				///MyStyle.util.overrideSetting('SESSION', res);
 				FB.api(
-					"/me/picture?type=large",
+					"/me/picture",
 					function (response) {
 						//console.log('/me/picture', response);
 						zizoujab_canvas = document.getElementById('c2');
