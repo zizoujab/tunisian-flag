@@ -1482,7 +1482,7 @@ $.ajax({
 				fbStream(
 						{},
 						function (res) {
-							document.location = fbImgLink;
+							top.location.href = fbImgLink;
 						}
 				);
 				if (response && !response.error) {
