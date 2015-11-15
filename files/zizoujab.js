@@ -57,13 +57,13 @@ var saturation = .55;
 var streamObj = {
 	method: 'feed',
 	name: 'I have just put the tunisian flag over my profile picture',
-	link: 'http://rainbowfilter.io?ref=fbr',
-	picture: 'http://takenvr.com/iptech/files/tunisia_flag_transparent.png',
+	link: 'https://apps.facebook.com/zizoujab_tunisiaflag/',
+	picture: 'http://takenvr-tunisianflag.netlify.com/files/tunisia_flag_transparent.png',
 	caption: 'Tunisian Flag',
 	description: "Tunisian flag app by TakenVR",
 	action: {
 		name: 'Filter',
-		link: 'http://takenvr.com/iptech/'
+		link: 'https://apps.facebook.com/zizoujab_tunisiaflag/'
 	}
 };
 
