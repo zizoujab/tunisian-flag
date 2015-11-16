@@ -109,7 +109,7 @@ function init() {
 		colors[i] = hexToRgb(colors[i]);
 	}
 
-	document.getElementById('image-upload-btn').onclick = eventHandler;
+	//document.getElementById('image-upload-btn').onclick = eventHandler;
 	document.getElementById('user_images').addEventListener('change', imageUploadHandler, false);
 	var elemArr = [
 		'image-upload-proxy-btn',
@@ -202,7 +202,7 @@ function eventHandler(evt) {
 			break;
 		/* OLD BUTTONS */
 		case 'image-upload-btn':
-			document.getElementById('user_images').click();
+			//document.getElementById('user_images').click();
 			break;
 		default:
 			break;
