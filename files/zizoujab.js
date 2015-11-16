@@ -1203,7 +1203,7 @@ function fbPhotos (callback) {
 
 						background.onload = photo.onload = counter;
 						background.src = response.data.url;
-						photo.src = "files/tunisia_flag_transparent.png";
+						photo.src = "files/tunisia_flag_transparent200.png";
 
 						/// common loader keeping track if loads
 						function counter() {
