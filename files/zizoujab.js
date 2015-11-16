@@ -109,7 +109,7 @@ function init() {
 		colors[i] = hexToRgb(colors[i]);
 	}
 
-	document.getElementById('image-upload-btn').onclick = eventHandler;
+	//document.getElementById('image-upload-btn').onclick = eventHandler;
 	document.getElementById('user_images').addEventListener('change', imageUploadHandler, false);
 	var elemArr = [
 		'image-upload-proxy-btn',
@@ -1203,7 +1203,7 @@ function fbPhotos (callback) {
 
 						background.onload = photo.onload = counter;
 						background.src = response.data.url;
-						photo.src = "files/tunisia_flag_transparent.png";
+						photo.src = "files/tunisia_flag_transparent200.png";
 
 						/// common loader keeping track if loads
 						function counter() {
